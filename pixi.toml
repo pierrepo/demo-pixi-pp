@@ -1,0 +1,11 @@
+[workspace]
+authors = ["Pierre Poulain <pierre.poulain@cupnet.net>"]
+channels = ["conda-forge", "bioconda"]
+name = "demo-pixi-pp.git"
+platforms = ["linux-64", "osx-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+seqtk = ">=1.5,<2"
